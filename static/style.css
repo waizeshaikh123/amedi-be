@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--bs-white);
+    font-family: Roboto, Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+:root,
+[data-bs-theme=light] {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}
+.bg-green{
+    background: #1EB2A6;
+}
+.green{
+    color: #1EB2A6;
+}
+.fsm-0{
+    font-size: 12px;
+}
+.fsm-1{
+    font-size: 10px;
+}
+.fsm-2{
+    font-size: 15px;
+}
+.fsm-3{
+    font-size: 18px;
+}
+.fsm-4{
+    font-size: 20px;
+}
+.fsm-5{
+    font-size:25px;
+}
+.header-section{
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    z-index: 100;
+}
+.academia{
+    line-height: 12px;
+}
+.para{
+    font-size: 12px;
+}
+.fonts-icons a{
+    width: 2.3rem ;
+    height: 2.3rem;
+    background:#edeff080;
+    font-size: 18px;
+    font-weight: 500;
+}
+.fonts-icons a i{
+    color: #1EB2A6;
+}
+.col-10{
+    min-height: 80px;
+    background:#b0cfd552;
+    border-bottom-right-radius: 8rem;
+}
+.col-10 ul{
+    padding-top: 1.9rem;
+}
+.col-2{
+    min-height: 80px;
+    background: #1EB2A6;
+    border-top-left-radius:8rem;
+    font-family: Roboto, Arial, sans-serif;
+}
+.main-nav-text{
+    padding-top: 8rem;
+}
+.button .anc{
+    padding: 1.2rem 2.3rem;
+    border-radius: .3rem;
+    background:#1EB2A6;
+}
+.anchor{
+    padding: 1.2rem 1.5rem;
+    border-radius: .3rem;
+    background:var(--bs-body-bg);
+    color: #1EB2A6;
+    
+}
+/* hero section */
+.hero-section{
+    min-height: 110vh;
+    background: #F8F8F8;
+}
+.back img{
+    height: 110vh;
+}
+.main-col-5{
+    padding: 5rem 0 1.5rem 0;
+}
+.box{
+    border: none;
+    margin: 8px;
+}
+.box:hover{
+    transition: 0.5s;
+    color: var(--bs-white);
+    background: #1EB2A6;
+}
+.box P{
+    color: var(--bs-black);
+}
+.box p:hover{
+    color: var(--bs-white);
+}
+.span{
+    color: #198754;
+}
+.self-section{
+    width: 100%;
+    min-height: 250px;
+    background: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.our-courses{
+    min-height: auto;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background: #1987544b;
+}
+.our-fonts i{
+    color: #1EB2A6;
+}
+.our-pricing{
+    width: 80%;
+    text-align: center;
+    background: rgba(185, 168, 168, 0.164);
+    border: none;
+    border-radius: .2rem;
+}
+.our-btn{
+    width: 80%;
+    text-align: center;
+    border: 1px solid #1EB2A6;
+    border-radius: .2rem;
+}
+.carousel-indicators{
+    bottom: -10px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #198754;
+}
+.card{
+    border: none;
+}
+.online-span{
+    border: none;
+    border-radius: .2rem;
+}
+.main-a{
+    border: 1px solid #1EB2A6;
+}
+.max-c:hover{
+    background: #1EB2A6;
+}
+.input-email{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #e9ecef;
+    background: transparent;
+    color: var(--bs-white);
+    margin-top: 4rem;
+}
+.main-1 .academia{
+    width: 18rem;
+}
+.main-1 .academia .p-m{
+    line-height: 25px;
+}
+.fi a{
+    background: #1EB2A6;
+}
+.fi a i{
+    color: var(--bs-white);
+    font-size: medium;
+}
+.contact{
+    background: var(--bs-gray-400);
+}
